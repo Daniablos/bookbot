@@ -1,21 +1,13 @@
-def count_words(content):
+from collections import Counter
+
+def count_words(content: str):
     return len(str.split(content))
 
-def num_characters(content):
+def num_characters(content: str):
+    return Counter(c for c in content.lower() if c.isalpha())
 
-    lower_content = str.lower(content)
-    dict_chars = {}
-
-    for chars in lower_content:
-        if chars.isalpha():
-            dict_chars[chars] = dict_chars.get(chars, 0) + 1
-
-
-    return dict_chars
-
-
-def sort_on(dict_chars: dict):
-    list_dict = [{"char": k, "num": v} for k, v in dict_chars.items()]
-    list_dict.sort(key=lambda x: x['num'], reverse=True)    
+def print_sorted_characters(dict_chars: dict):
+    for key, value in sorted(dict_chars.items(), key=lambda x: x[1], reverse=True):
+        print(f"{key}: {value}")
     
-    return list_dict
+    pass

@@ -1,7 +1,7 @@
 import sys
 from stats import *
 
-def get_book_text(filepath):
+def get_book_text(filepath: str):
     content = ""
     with open(filepath) as f:
         content = f.read()
@@ -20,8 +20,7 @@ def main():
     print('Word Count'.center(50, "="))
     print('Found', count_words(text), "total words")
     print('Character Count'.center(50, "="))
-    for i in sort_on(num_characters(text)):
-        print(i['char']+':', i['num'])
+    print_sorted_characters(num_characters(text))
     print('END'.center(50, "="))
 
 if __name__ == "__main__":
