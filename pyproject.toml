@@ -1,7 +1,7 @@
 [project]
 name = "bookbot"
 version = "0.1.0"
-description = ""
+description = "A simple bookbot for reading and processing text"
 authors = [
     {name = "Daniablos"}
 ]
