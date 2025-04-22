@@ -4,15 +4,23 @@
 
 ## Зависимости
 
-- Python 3
+- Python 3.9+
 
 ## Установка
 
+### Репозиторий
+
 Скачайте и распакуйте ZIP
 или
-```
-git clone https://github.com/Daniablos/bookbot.git
-```
+`git clone https://github.com/Daniablos/bookbot.git`
+
+### Poetry
+
+`poetry add git+https://github.com/Daniablos/bookbot.git`
+
+### PIP
+
+`pip install git+https://github.com/Daniablos/bookbot.git`
 
 ##  Использование
 

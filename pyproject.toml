@@ -6,13 +6,13 @@ authors = [
     {name = "Daniablos"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
 ]
 
 [tool.poetry]
 packages = [
-  { include = "bookbot" }
+  { include = "." }
 ]
 
 [build-system]
