@@ -30,8 +30,10 @@ pip install git+https://github.com/Daniablos/bookbot.git
 
 ##  Использование
 
-В корне проекта через терминал вводите команду `python3 -m bookbot <filename>`
-
+В корне проекта через терминал вводите команду 
+```shell
+python3 -m bookbot <filename>`
+```
 
 ```
 =====================BOOKBOT======================
