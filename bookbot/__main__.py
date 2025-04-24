@@ -2,7 +2,7 @@ import sys
 
 from .stats import count_characters, count_words, print_sorted_characters
 
-
+# Return content of file
 def get_book_text(filepath: str) -> str:
     content: str
     with open(filepath) as f:
