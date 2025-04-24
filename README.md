@@ -12,19 +12,26 @@
 
 Скачайте и распакуйте ZIP
 или
-`git clone https://github.com/Daniablos/bookbot.git`
+```shell
+git clone https://github.com/Daniablos/bookbot.git
+```
 
 ### Poetry
 
-`poetry add git+https://github.com/Daniablos/bookbot.git`
+```shell
+poetry add git+https://github.com/Daniablos/bookbot.git
+```
 
 ### PIP
 
-`pip install git+https://github.com/Daniablos/bookbot.git`
+```shell
+pip install git+https://github.com/Daniablos/bookbot.git
+```
 
 ##  Использование
 
-Запускайте через терминал `main.py`, указывая путь к файлу, в котором вы хотите сделать подсчет. Пример команды `python3 main.py <filename>`.
+В корне проекта через терминал вводите команду `python3 -m bookbot <filename>`
+
 
 ```
 =====================BOOKBOT======================

@@ -1,6 +1,6 @@
 import sys
 
-from bookbot.stats import count_characters, count_words, print_sorted_characters
+from .stats import count_characters, count_words, print_sorted_characters
 
 
 def get_book_text(filepath: str) -> str:
