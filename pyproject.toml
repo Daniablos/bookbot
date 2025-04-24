@@ -9,11 +9,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
 ]
-
-[tool.poetry]
-packages = [
-  { include = "." }
-]
+include = ["bookbot"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
