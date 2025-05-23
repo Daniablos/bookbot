@@ -35,6 +35,8 @@ pip install git+https://github.com/Daniablos/bookbot.git
 python3 -m bookbot <filename>`
 ```
 
+Флаг `--words` выводит только кол-во слов
+
 ```
 =====================BOOKBOT======================
 Analyzing book found at books/frankenstein.txt
