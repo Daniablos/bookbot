@@ -32,7 +32,7 @@ pip install git+https://github.com/Daniablos/bookbot.git
 
 В корне проекта через терминал вводите команду 
 ```shell
-python3 -m bookbot <filename>`
+python3 -m bookbot <filename>
 ```
 
 Флаг `--words` выводит только кол-во слов
